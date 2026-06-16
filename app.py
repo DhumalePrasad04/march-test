@@ -8,7 +8,7 @@ from groq import Groq  # Import Groq SDK
 app = FastAPI()
 
 # Set your Groq API Key (Store securely in environment variables)
-GROQ_API_KEY = "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"
+GROQ_API_KEY = ""
 
 # Initialize Groq client
 client = Groq(api_key=GROQ_API_KEY)
